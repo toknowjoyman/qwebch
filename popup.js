@@ -2,6 +2,10 @@ var jshelper;
 new QWebChannel(qt.webChannelTransport, function (channel) {
     jshelper = channel.objects.jshelper;
 });
-jshelper.markerMoved("candy")
+
+document.getElementByTagName('iframe').onload = function() {
+        jshelper.markerMoved("candy")
+    }
+
 
 
