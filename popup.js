@@ -5,7 +5,8 @@ new QWebChannel(qt.webChannelTransport, function (channel) {
 
 
 // iframe.contentWindow.document.documentElement.innerHTML
-var t = document.getElementByTagName("iframe").src.atob()
-t.getElementByTagName("p")addEventListener("click", function(){
-    jshelper.markerMoved("candy")
-});
+// var t = document.getElementByTagName("iframe").src.atob()
+jshelper.markerMoved("candy")
+// t.getElementByTagName("p")addEventListener("click", function(){
+    
+// });
